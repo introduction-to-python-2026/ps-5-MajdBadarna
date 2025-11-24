@@ -1,4 +1,4 @@
-from string_utils import parse_chemical_reaction, count_atoms_in_reaction
+
 
 def split_before_each_uppercases(formula):
     if formula == "":
