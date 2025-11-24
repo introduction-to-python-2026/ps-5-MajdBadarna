@@ -36,6 +36,8 @@ def split_at_first_digit(formula):
         number = int(formula[digit_location:])
         return prefix, number
 
+split_by_capitals = split_before_each_uppercases
+split_at_number = split_at_first_digit
 
 def count_atoms_in_molecule(molecular_formula):
     atom_counts = {}
